@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppTestTextEditor", "BlazorAppTestTextEditor\BlazorAppTestTextEditor.csproj", "{87F46A2A-3EA8-4591-84FA-F40861FA90AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppTestTextEditor", "BlazorAppTestTextEditor\BlazorAppTestTextEditor.csproj", "{87F46A2A-3EA8-4591-84FA-F40861FA90AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicLayer", "..\..\Web\BlazorAppTest\BusinessLogicLayer\BusinessLogicLayer.csproj", "{CACBF7AF-E9F2-432B-A40C-314CC0217BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{BECD5DB7-1654-44F4-8333-528517D4938F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "..\..\Web\BlazorAppTest\DataAccessLayer\DataAccessLayer.csproj", "{D3627706-0694-493B-8496-80FC504347A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{3C4F81E8-E702-4C83-8855-815EB817D1B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "..\..\Web\BlazorAppTest\DTO\DTO.csproj", "{914120CC-0C09-427D-B1B8-A28E02BD2F12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{8D31AA0C-C2BF-4843-8A74-FAF073036CB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{87F46A2A-3EA8-4591-84FA-F40861FA90AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87F46A2A-3EA8-4591-84FA-F40861FA90AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87F46A2A-3EA8-4591-84FA-F40861FA90AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CACBF7AF-E9F2-432B-A40C-314CC0217BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CACBF7AF-E9F2-432B-A40C-314CC0217BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CACBF7AF-E9F2-432B-A40C-314CC0217BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CACBF7AF-E9F2-432B-A40C-314CC0217BD1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3627706-0694-493B-8496-80FC504347A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3627706-0694-493B-8496-80FC504347A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3627706-0694-493B-8496-80FC504347A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3627706-0694-493B-8496-80FC504347A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{914120CC-0C09-427D-B1B8-A28E02BD2F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{914120CC-0C09-427D-B1B8-A28E02BD2F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{914120CC-0C09-427D-B1B8-A28E02BD2F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{914120CC-0C09-427D-B1B8-A28E02BD2F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECD5DB7-1654-44F4-8333-528517D4938F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECD5DB7-1654-44F4-8333-528517D4938F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECD5DB7-1654-44F4-8333-528517D4938F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECD5DB7-1654-44F4-8333-528517D4938F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4F81E8-E702-4C83-8855-815EB817D1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4F81E8-E702-4C83-8855-815EB817D1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4F81E8-E702-4C83-8855-815EB817D1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4F81E8-E702-4C83-8855-815EB817D1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D31AA0C-C2BF-4843-8A74-FAF073036CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D31AA0C-C2BF-4843-8A74-FAF073036CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D31AA0C-C2BF-4843-8A74-FAF073036CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D31AA0C-C2BF-4843-8A74-FAF073036CB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -29,11 +29,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-                "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+              "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+                "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
               },
-              "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+    "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectUniqueName": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
         "projectName": "BusinessLogicLayer",
-        "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
         "packagesPath": "C:\\Users\\abourouis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\BusinessLogicLayer\\obj\\",
+        "outputPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\BusinessLogicLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abourouis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,11 +115,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DTO\\DTO.csproj"
+              "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DTO\\DTO.csproj"
               }
             }
           }
@@ -159,14 +159,14 @@
         }
       }
     },
-    "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\abourouis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abourouis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DTO\\DTO.csproj": {
+    "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\abourouis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abourouis\\AppData\\Roaming\\NuGet\\NuGet.Config",

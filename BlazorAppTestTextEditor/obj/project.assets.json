@@ -3817,18 +3817,18 @@
     },
     "BusinessLogicLayer/1.0.0": {
       "type": "project",
-      "path": "../../../Web/BlazorAppTest/BusinessLogicLayer/BusinessLogicLayer.csproj",
-      "msbuildProject": "../../../Web/BlazorAppTest/BusinessLogicLayer/BusinessLogicLayer.csproj"
+      "path": "../BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "msbuildProject": "../BusinessLogicLayer/BusinessLogicLayer.csproj"
     },
     "DataAccessLayer/1.0.0": {
       "type": "project",
-      "path": "../../../Web/BlazorAppTest/DataAccessLayer/DataAccessLayer.csproj",
-      "msbuildProject": "../../../Web/BlazorAppTest/DataAccessLayer/DataAccessLayer.csproj"
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
     },
     "DTO/1.0.0": {
       "type": "project",
-      "path": "../../../Web/BlazorAppTest/DTO/DTO.csproj",
-      "msbuildProject": "../../../Web/BlazorAppTest/DTO/DTO.csproj"
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3869,11 +3869,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-              "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+              "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
             },
-            "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Web\\BlazorAppTest\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\abourouis\\Desktop\\BRS\\Blazor\\BlazorAppTestTextEditor\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }
