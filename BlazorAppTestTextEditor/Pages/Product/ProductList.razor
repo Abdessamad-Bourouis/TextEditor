@@ -1,0 +1,107 @@
+﻿@page "/product"
+@inject IProductRepository _productRepository;
+@inject IJSRuntime _jsRuntime;
+@using BlazorAppTestTextEditor.Pages.Category;
+
+<_DeleteCategory IsParenetComponentProcessing="IsLoading" ConfirmationChanged="ConfirmDelete_Click"></_DeleteCategory>
+<div class="row mt-2">
+    <div class="col-6">
+        <h4 class="card-title text-info mb-3 ml-3">Product List</h4>
+    </div>
+    <div class="col-4 offset-2">
+        <NavLink href="product/Create" class="btn btn-info form-control">Add New Product</NavLink>
+    </div>
+
+    <div class="col-12">
+        @if (Products.Any())
+        {
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Shop Favorites</th>
+                        <th>Customer Favorites</th>
+                        <th>Category</th>
+                 
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var ObjProd in Products)
+                    {
+                        <tr>
+                            <td>@ObjProd.Name</td>
+                            <td>
+                                <input type="checkbox" disabled checked="@ObjProd.Shopfavorites"/>
+                            </td>
+                            <td>
+                                <input type="checkbox" disabled checked="@ObjProd.CustomerFavorites" />
+                            </td>
+                            
+                            <td>@ObjProd.Category.Name</td>
+                            <div class="gap-4">
+                                <NavLink href="@($"product/edit/{ObjProd.Id}")" class="btn btn-primary">Edit</NavLink>
+                                <NavLink href="@($"product/price/{ObjProd.Id}")" class="btn btn-info">Price</NavLink>
+                                <button class="btn btn-danger" @onclick="()=>handleDelete(ObjProd.Id)">Delete</button>
+                            </div>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            if (IsLoading)
+            {
+                <div class="text-center">
+                    <h3>Loading...</h3>
+                </div>
+            }
+            else
+            {
+                <h3>No records found.</h3>
+            }
+        }
+    </div>
+</div>
+@code {
+    private List<ProductDTO> Products { get; set; } = new List<ProductDTO>();
+
+    public bool IsLoading { get; set; } = true;
+    private int DeleteProductId { get; set; } = 0;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadProducts();
+        }
+    }
+    private async Task LoadProducts()
+    {
+        IsLoading = true;
+        StateHasChanged();
+        Products = await _productRepository.GetAll();
+        IsLoading = false;
+        StateHasChanged();
+    }
+    private void handleDelete(int id)
+    {
+        DeleteProductId = id;
+        _jsRuntime.InvokeVoidAsync("ShowDeleteConfirmationModal");
+    }
+    public async Task ConfirmDelete_Click(bool isConfirmed)
+    {
+        IsLoading = true;
+        if (isConfirmed && DeleteProductId != 0)
+        {
+            //await Task.Delay(5000);
+            ProductDTO product = await _productRepository.GetById(DeleteProductId);
+            
+            await _productRepository.Delete(DeleteProductId);
+            await _jsRuntime.SweetAlertSuccess("Product deleted successfully");
+            await LoadProducts();
+            await _jsRuntime.InvokeVoidAsync("HideDeleteConfirmationModal");
+        }
+        IsLoading = false;
+    }
+}
